@@ -1,0 +1,19 @@
+#body 
+{
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+}
+
+#body > header
+{
+	padding: 2em;
+}
+
+hr
+{
+	padding: 0 0 2em 0;
+	border: none;
+	border-top: medium double #333;
+	color: #333;
+	width: 65%;
+}
