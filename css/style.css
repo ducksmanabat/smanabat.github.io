@@ -1,0 +1,22 @@
+body 
+{
+	font-family: "Courier New", Courier, monospace;
+}
+
+hr
+{
+	border: none;
+	border-top: medium double #333;
+	color: #333;
+}
+
+section
+{
+	padding-bottom: 2em;
+}
+
+#Title  header 
+{
+	text-align: center;
+	padding: 2em;
+}

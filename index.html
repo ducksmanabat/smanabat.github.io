@@ -6,46 +6,109 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		
-		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<script src="js/skel.min.js">
+		{
+			prefix: 'css/style',
+			preloadStyleSheets: true,
+			resetCSS: true,
+			boxModel: 'border',
+			grid: { gutters: 30 },
+			breakpoints: {
+				wide: { range: '1200-', containers: 1140, grid: { gutters: 50 } },
+				narrow: { range: '481-1199', containers: 960 },
+				mobile: { range: '-480', containers: 'fluid', lockViewport: true, grid: { collapse: true } }
+			}
+		}
+		</script>
 
 	</head>
 	<body>
 
 		<!-- Header -->
-			<section id="header">	
-				<header>
-					<h1> MANMAN OPERANDI </h1>
-				</header>
+			<section id="Title">	
+				<div class="container">
+					<header>
+						<h1> MANMAN OPERANDI </h1>
+					</header>
+					<hr/>
+				</div>
 			</section>
 
 		<!-- Body -->
 			<section id="body">
-
-
-				<hr/>
-
 				<div class="container">
-					<h2>Sheldon Manabat: Program</h2>
+					<h2>Sheldon Manabat: Programmer</h2>
 						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat
 					feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
 				</div>
-				<a href="#openModal">Open Modal</a>
+				</section>
+				<section>
+				
+			    <div class="container">
+				<hr/>
+      <!-- Header -->
+        <div id="header" class="row">
+          <div class="12u">
+            <h1>Example</h1>
+          </div>
 
-				<div id="openModal" class="modalDialog" >
-					<div>
-						<a href="#close" title="Close" class="close">X</a>
-						<h2>Modal Box</h2>
-						<p>Jean shorts Terry Richardson squid, art party wayfarers gentrify drinking vinegar cardigan locavore salvia roof party Portland synth. Pug keffiyeh yr post-ironic tofu, scenester gastropub hashtag. Neutra Tonx wayfarers, occupy Helvetica cred shabby chic squid brunch Williamsburg photo booth. Scenester Blue Bottle wayfarers fashion axe irony, cred letterpress Marfa post-ironic kogi hoodie Carles Williamsburg twee keffiyeh. Bushwick skateboard McSweeney's authentic Etsy, synth Williamsburg chillwave. Tattooed American Apparel put a bird on it disrupt. Echo Park vinyl freegan, readymade +1 forage Brooklyn.</p>
-					</div>
-	</div>
+        </div>
+      <!-- Hero -->
+        <section>
+          <h2>Hello world.</h2>
+          <p>Lorem ipsum dolor sit amet sed magna etiam adipiscing.</p>
+          <a href="#" class="button">Get Started</a>
+        </section>
+      <!-- Features -->
+        <div class="row">
+          <section class="4u">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet sed magna etiam adipiscing elit.
+            adipiscing elit nec fringilla urna tempor in. Cras et sodales
+            consectetur viverra lorem ipsum.</p>
+          </section>
+          <section class="4u">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet sed magna etiam adipiscing elit.
+            adipiscing elit nec fringilla urna tempor in. Cras et sodales
+            consectetur viverra lorem ipsum.</p>
+          </section>
+          <section class="4u">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet sed magna etiam adipiscing elit.
+            adipiscing elit nec fringilla urna tempor in. Cras et sodales
+            consectetur viverra lorem ipsum.</p>
+          </section>
+        </div>
+      <!-- Main -->
+        <div class="row">
+          <!-- Content -->
+            <section class="8u">
+              <h2>Heading</h2>
+              <p>Lorem ipsum dolor sit amet sed magna etiam adipiscing elit.
+              adipiscing elit nec fringilla urna tempor in. Cras et sodales
+              consectetur viverra lorem ipsum. Lorem ipsum dolor sit amet
+              sed magna etiam adipiscing elit adipiscing elit nec fringilla
+              urna tempor in. Cras et sodales consectetur viverra.</p>
+            </section>
+          <!-- Sidebar -->
+            <section class="4u">
+              <h2>Heading</h2>
+              <p>Lorem ipsum dolor sit amet sed magna etiam adipiscing elit.
+              adipiscing elit nec fringilla urna tempor in. Cras et sodales
+              consectetur viverra lorem ipsum.</p>
+            </section>
+        </div>
+      <!-- Footer -->
+        <div id="footer">
+          © Example. All rights reserved.
+        </div>
+    </div>
 
-				</div>
 				
 			</section>
-				
-		<!-- Footer -->
-			<section id="footer">
-			</section>
+
+		
 
 	</body>
 </html>
