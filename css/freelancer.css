@@ -1,3 +1,11 @@
+/*
+
+#edd9c0  // pink skin 
+#c9d8c5  // pastel-teal   
+#a8b6bf  // blue-grey
+#7d4627  // brown
+
+*/
 body {
   overflow-x: hidden;
 }
@@ -12,7 +20,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #c9d8c5;
   outline: none;
 }
 h1,
@@ -48,22 +56,27 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #c9d8c5;
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #a8b6bf;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: #a8b6bf;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #c9d8c5;
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('../img/header-bg.png');
   color: white;
 }
 header .container {
@@ -143,7 +156,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #c9d8c5;
   color: white;
 }
 section.success a,
@@ -151,7 +164,7 @@ section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-  color: #2C3E50;
+  color: #a8b6bf;
   outline: none;
 }
 @media (max-width: 767px) {
@@ -173,7 +186,7 @@ section.success a.active {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: rgba(201, 216, 197, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -226,7 +239,7 @@ section.success a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #c9d8c5;
   background: white;
   border: solid 2px white;
 }
@@ -274,7 +287,7 @@ section.success a.active {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #c9d8c5;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -287,14 +300,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #a8b6bf;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #99aab4;
 }
 .btn-social {
   display: inline-block;
@@ -365,7 +378,7 @@ footer .footer-below {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: #a8b6bf;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -376,7 +389,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: #a8b6bf;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
